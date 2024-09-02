@@ -14,7 +14,7 @@ import { useUploadThing } from "@/lib/uploadthing";
 import { useToast } from "@/components/ui/use-toast";
 
 
-const page = () => {
+const Page = () => {
   const [isDragOver, setIsDragOver] = useState<boolean>(false);
   const [progessBar, setProgessBar] = useState<number>(0);
    const {replace} = useRouter();
@@ -117,4 +117,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
