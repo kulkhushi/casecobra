@@ -63,7 +63,7 @@ export const POST = async (req: NextRequest, res: NextResponse) => {
       });
     }
     return NextResponse.json(
-      { message: "Webhook received", OK: true },
+      { message: "Webhook received successfully", OK: true },
       { status: 200 }
     );
   } catch (error) {
